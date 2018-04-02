@@ -34,4 +34,7 @@ Someone who has a mathematical idea of why this computation Graph is working ple
 My mathematical idea was to programm something you could call a functionalanalytic neural Object, because the Controller gets the weights of the second Network as part of its input.
 So it is some kind of combination of computational theory, analysis and functionalanalysis.
 
+More about function as an object see "Axiomatic Foundations of Mathematics" from John van Neumann. <3
+
+
 Please feel free to write more train()  methodes to test especially DNMC^2 on more complicated problems, i dont have the calculation power at the moment.
