@@ -8,7 +8,7 @@ But it learns the copy function through time in less than 5000 iteration steps.
 
 
 
-#DNMC:This is an implementation of a Feed Forward Network which uses another Feed Foward Network as an external Memory
+#DNMC:This is an implementation of a Feed Forward Network which uses another Feed Forward Network as an external Memory
 
 
 
