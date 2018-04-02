@@ -31,4 +31,7 @@ can manage to learn the copy function.
 
 Someone who has a mathematical idea of why this computation Graph is working please write me. 
 
+My mathematical idea was to programm something you could call a functionalanalytic neural Object, because the Controller gets the weights of the second Network as part of its input.
+So it is some kind of combination of computational theory, analysis and functionalanalysis.
+
 Please feel free to write more train()  methodes to test especially DNMC^2 on more complicated problems, i dont have the calculation power at the moment.
