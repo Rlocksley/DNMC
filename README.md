@@ -15,7 +15,7 @@ This is an implementation of a Feed Forward Network which uses a DMNC as its ext
 the .train() methode generates random sequences between 0 and 1 , and trains the Network for the copy function.
 
 You can also use an LSTM Network but its better to use  a FeedForwardController so that you can be sure that it is 
-external Memory which is working.
+the external Memory which is working.
 
 I think its  fascinating that the hidden layers of the controller can be smaller than the input_size and output_size and it still 
 can manage to learn the copy function.
