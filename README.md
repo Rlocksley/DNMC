@@ -1,5 +1,6 @@
 
 #Differentiable Neural Memory Computer
+
 Dont know if it is worth this name because i dont know if it is turing complete
 But it learns the copy function though time in less than 5000 iteration steps.
 
