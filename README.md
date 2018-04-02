@@ -15,7 +15,7 @@ But it learns the copy function through time in less than 5000 iteration steps.
 
 #DNMC^2:This is an implementation of a Feed Forward Network which uses a DMNC as its external Memory.
 
-It has a kind of cognition a lttle bit similar to https://arxiv.org/pdf/1703.04361.pdf%3E: through reading several times from the memory while the ith read influence the i+1th read.
+It has a kind of cognition a little bit similar to https://arxiv.org/pdf/1703.04361.pdf%3E: through reading several times from the memory while the ith read influence the i+1th read.
 
 Its like you read a pointer in the first read to access the array in the next read.
 
