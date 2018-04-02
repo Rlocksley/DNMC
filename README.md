@@ -5,9 +5,14 @@ Dont know if it is worth this name because i dont know if it is turing complete.
 
 But it learns the copy function through time in less than 5000 iteration steps.
 
+
+
+
 #DNMC
 
 This is an implementation of a Feed Forward Network which uses another Feed Foward Network as an external Memory
+
+
 
 
 #DNMC^2
@@ -15,7 +20,11 @@ This is an implementation of a Feed Forward Network which uses another Feed Fowa
 This is an implementation of a Feed Forward Network which uses a DMNC as its external Memory
 
 
-the .train() methode generates random sequences between 0 and 1 , and trains the Network for the copy function.
+
+
+
+
+The .train() methode generates random sequences between 0 and 1 , and trains the Network for the copy function.
 
 You can also use an LSTM Network but its better to use  a FeedForwardController so that you can be sure that it is 
 the external Memory which is working.
