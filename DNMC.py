@@ -233,12 +233,9 @@ class DNMC:
                                 batch_y=np.append(batch_y,np.append(np.zeros((5,self.extern_output_size)),random_vector,axis=0).reshape(1,time_steps,self.extern_output_size),axis=0)
                                 
                                         
-
+			#summary=tf.Summary()
                         _,c,pre=sess.run([self.optimizer,self.cost,self.extern_output_time],feed_dict={self.extern_input:batch_x,self.extern_output:batch_y,self.time_steps:time_steps})
-                        if i>0:
-				for k in xrange(time_steps*3+1):
-					sys.stdout.write("\r")
-					sys.stdout.flush()
+                        #writer.add_summary(summary)
 			print(batch_x[0])
 			print pre[0]
 			print pre[0]-batch_y[0]
