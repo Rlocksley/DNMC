@@ -97,7 +97,7 @@ class DNMC:
 
 		self.cost=tf.reduce_sum(tf.square(self.extern_output_time-self.extern_output))
 
-		self.optimizer=tf.train.AdamOptimizer(0.0001).minimize(self.cost)
+		self.optimizer=tf.train.AdamOptimizer(0.0005).minimize(self.cost)
 
 
 	def Controller(self,extern_input,memory_input,memory_layer1,memory_layer2,memory_layer3,memory_layer4):
