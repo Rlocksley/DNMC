@@ -3,7 +3,7 @@
 
 #DNMC:This is an implementation of a Feed Forward Network which uses another Feed Forward Network as its external Memory
 
-#DNMC^2:This is an implementation of a Feed Forward Network which uses a DNMC as its external Memory.
+#DNMC^2:This is an implementation of a Feed Forward Network which uses a DNMC as its external Cognitive Memory.
 
 DNMC^2 has a kind of cognition a little bit similar to https://arxiv.org/pdf/1703.04361.pdf%3E: through reading several times from the memory while the ith read influences the i+1th read.
 It is like you read a pointer in the first read to access the array in the next read, only that everything is differentiable.
