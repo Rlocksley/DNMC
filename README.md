@@ -6,8 +6,7 @@
 #DNMC^2:This is an implementation of a Feed Forward Network which uses a DMNC as its external Memory.
 
 DNMC^2 has a kind of cognition a little bit similar to https://arxiv.org/pdf/1703.04361.pdf%3E: through reading several times from the memory while the ith read influences the i+1th read.
-
-It is like you read a pointer in the first read to access the array in the next read.
+It is like you read a pointer in the first read to access the array in the next read, only that everything is differentiable.
 
 The .train() methode generates random sequences between 0 and 1 , and trains the Network for the copy function.
 
