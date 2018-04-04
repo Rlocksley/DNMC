@@ -325,7 +325,7 @@ class DNMC:
 
 
 
-DNMC=DNMC(batch_size=200,extern_input_size=1,extern_output_size=1,memory_address_size=6,memory_input_size=11,NM_size=8,num_read_heads=6,hidden_size=101,memory_memory_address_size=1,memory_memory_input_size=1,memory_NM_size=2)
+DNMC=DNMC(batch_size=200,extern_input_size=1,extern_output_size=1,memory_address_size=6,memory_input_size=8,NM_size=11,num_read_heads=6,hidden_size=200,memory_memory_address_size=2,memory_memory_input_size=2,memory_NM_size=4)
 	
 DNMC.train(10000,"/path/to/your/tb/dir")
 
