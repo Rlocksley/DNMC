@@ -7,7 +7,7 @@
 
 #DNMC^2_remember_memory: This is an DNMC^2 implementation with remembers the state of the Cognitive Memory between to time_steps.
 
-#DNMC^2_2.0: This is an DNMC^2 which remembers the state of its Cognitive Memory and the Controller gets as input the hall state of the DNMC (not only the state of the MemoryController). 
+#DNMC^2_2.0: This is an DNMC^2 which remembers the state of its Cognitive Memory and the Controller gets as input the hall state of the Cognitive Memory (not only the weights and outputs of the MemoryController also from the MemoryMemoryController). 
 
 DNMC^2 has a kind of cognition a little bit similar to https://arxiv.org/pdf/1703.04361.pdf%3E: through reading several times from the memory while the ith read influences the i+1th read.
 It is like you read a pointer in the first read to access the array in the next read, only that everything is differentiable.
