@@ -5,7 +5,7 @@
 
 #DNMC^2:This is an implementation of a Feed Forward Network which uses a DNMC as its external Cognitive Memory.
 
-#DNMC^2_remember_memory: This is an DNMC^2 implementation with remembers the state of the Cognitive Memory between to time_steps.
+#DNMC^2_remember_memory: This is an DNMC^2 implementation wich remembers the state of the Cognitive Memory between two time_steps.
 
 #DNMC^2_2.0: This is an DNMC^2 which remembers the state of its Cognitive Memory and the Controller gets as input the hall state of the Cognitive Memory (not only the weights and outputs of the MemoryController also from the MemoryMemoryController). 
 
