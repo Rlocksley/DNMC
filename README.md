@@ -9,7 +9,7 @@
 
 #DNMC^2_2.0: This is an DNMC^2 which remembers the state of its Cognitive Memory and the Controller gets as input the hall state of the Cognitive Memory (not only the weights and outputs of the MemoryController also from the MemoryMemoryController). 
 
-#DNMC^2_3.0: This is an DNMC^2_2.0 with an more extern memory that tries to make sure that the hall construction is not only an massive recurrent cell effect.
+#DNMC^2_3.0: This is an DNMC^2_2.0 with a "more extern" memory that tries to make sure that the hall construction is not only a massive recurrent cell effect.
 
 DNMC^2 has a kind of cognition a little bit similar to https://arxiv.org/pdf/1703.04361.pdf%3E: through reading several times from the memory while the ith read influences the i+1th read.
 It is like you read a pointer in the first read to access the array in the next read, only that everything is differentiable.
@@ -35,6 +35,6 @@ can manage to learn the copy function.
 My mathematical idea was to programm something you could call a functional analytic neural Object, because the Controller gets the weights of the second Network as part of its input.
 So it is some kind of combination of computational theory, analysis and functionalanalysis.
 
-More about a function as an object see "Axiomatic Foundations of Mathematics" from John von Neumann. <3
+More about a function as an object see "Axiomatic Foundations of Mathematics" from John von Neumann. 
 
 
