@@ -19,6 +19,7 @@ The .train() methode generates random sequences between 0 and 1 , and trains the
 Please feel free to write more train()  methodes to test especially DNMC^2 on more complicated problems, i dont have the calculation power at the moment.
 
 It learns the Copy Function through time and some similar problems.
+It is also able to learn permutations of the copyfunction.
 
 I dont know if it is turing complete, if someone has an idea how to proof it please write me.
 
