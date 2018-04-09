@@ -1,4 +1,3 @@
-
 #Differentiable Neural Memory Computer
 
 #DNMC:This is an implementation of a Feed Forward Network which uses another Feed Forward Network as its external Memory
