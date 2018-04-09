@@ -15,7 +15,7 @@ It is like you read a pointer in the first read to access the array in the next 
 
 The .train() methode generates random sequences between 0 and 1 , and trains the Network for the copy function.
 
-Please feel free to write more train()  methodes to test especially DNMC^2 on more complicated problems, i dont have the calculation power at the moment.
+Please feel free to write more train()  methodes to test especially DNMC^2 on more complicated problems and to experiment with the code, especially the costfunction. Everything is experimental i dont know if it is only a massiv recurrent effect or if the second network works. 
 
 It learns the Copy Function through time and some similar problems.
 It is also able to learn permutations of the copyfunction.
